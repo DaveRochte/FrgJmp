@@ -1,0 +1,54 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace FrogJmp
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+        }
+    }
+}
+
+using System;
+// you can also use other imports, for example:
+// using System.Collections.Generic;
+
+//namespace JumpingFrog{
+
+// you can use Console.WriteLine for debugging purposes, e.g.
+// Console.WriteLine("this is a debug message");
+
+class Solution {
+   
+    public int solution(int X, int Y, int D) {
+        // write your code in C# 5.0 with .NET 4.5 (Mono)
+        // variables
+    }
+    
+    static void Main() {
+         Console.WriteLine("Enter X position: ");
+         X = Console.ReadLine();
+         Console.WriteLine("Enter Y position: ");
+         Y = Console.ReadLine();
+    }
+    
+    public double CalcJumps() {
+        int Jumps=0;
+        for (X; X<=Y; X=X+D) {
+            Jumps++;
+        }
+        return Jumps;
+    }
+    
+   public void Display() {
+         Console.WriteLine("X: {0}", X);
+         Console.WriteLine("Y: {0}", Y);
+         Console.WriteLine("Min Jumps: {0}", CalcJumps());
+         Console.Readkey();
+    } 
+}
